@@ -16,7 +16,7 @@
     align-items: center;
     padding: 40px 240px;
     justify-content: space-between;
-    
+
 }
 
 .logo-container {
@@ -74,9 +74,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 240px;
+    margin: 30px 240px 0px 240px;
     text-align: left;
-    
+
 }
 
 .play {
@@ -143,4 +143,100 @@
     align-items: center;
     background: #4EC5F7;
     border-style: none;
+}
+
+/* online section */
+.online-game {
+    margin-top: 120px;
+    text-align: center;
+
+}
+
+.online-section {
+    margin-bottom: 16px;
+}
+
+.online {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+
+    .collection {
+        color: #534C64;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 48px;
+    }
+
+}
+
+.game-list {
+    height: 75%;
+    width: auto;
+    display: flex;
+    margin: 30px 240px;
+    gap: 24px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.img-des {
+    margin-top: 24px;
+}
+
+/* play game */
+.play-game {
+    height: 100vh;
+    width: auto;
+    display: flex;
+
+    margin: 120px 240px;
+    align-items: center;
+}
+
+.play-game-img-2 {
+    position: relative;
+    bottom: 150px;
+    margin-left: 500px;
+}
+
+.play-game-info {
+    padding-left: 245px;
+}
+
+.play-games-online {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.anywhere {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.phone {
+    color: #534C64;
+    font-size: 18px;
+    margin-top: 24px;
+    font-weight: 400;
+    line-height: 30px;
 }
