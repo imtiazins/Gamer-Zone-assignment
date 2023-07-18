@@ -61,14 +61,14 @@
 
 }
 
-.btn-description {
+.btn-discription {
     display: flex;
     gap: 24px;
     padding-left: 30px;
 }
 
 /* heading */
-.main-section {
+.main-saction {
     height: 75vh;
     width: auto;
     display: flex;
