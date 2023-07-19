@@ -60,6 +60,9 @@
     align-items: center;
 
 }
+.btn-1, .btn-2{
+    color: #FFF;
+}
 
 .btn-discription {
     display: flex;
@@ -242,21 +245,104 @@
 }
 
 /* feature section */
-.feature{
+.feature {
     width: auto;
-    height: 60vh;
+    height: 40vh;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    
-}
-.div-1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px 240px;
+
 
 }
-.game-1 , .game-2, .game-3 , .game-4 , .game-5{
+
+.div-1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    padding: 120px 240px 0px 240px;
+    align-content: center;
+    gap: 28px;
+}
+
+.div-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    padding: 50px 335px 120px 335px;
+    align-content: center;
+    gap: 28px;
+}
+
+.game-1,
+.game-2,
+.game-3,
+.game-4,
+.game-5,
+.game-6,
+.game-7,
+.game-8,
+.game-9 {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+/* footer style */
+.footer {
+    margin-top: 120px;
+    height: 40vh;
+    width: auto;
+    padding: 120px 240px;
+    justify-content: center;
+    background: #0B0223;
+    align-items: center;
+}
+
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-info {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 50px 240px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.social-media {
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.privacy {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    justify-content: center;
+    padding-top: 70px;
+    color: rgba(255, 255, 255, 0.60);
+
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+.footer-warning {
+    text-align: center;
+    margin-top: 28px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#amer {
+    color: #FFF;
 }
