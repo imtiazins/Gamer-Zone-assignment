@@ -240,3 +240,23 @@
     font-weight: 400;
     line-height: 30px;
 }
+
+/* feature section */
+.feature{
+    width: auto;
+    height: 60vh;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    
+}
+.div-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 240px;
+
+}
+.game-1 , .game-2, .game-3 , .game-4 , .game-5{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
