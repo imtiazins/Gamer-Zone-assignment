@@ -1,12 +1,31 @@
 /* mobile device */
 /* responsive */
 /* mobile device */
-@media screen and (max-width:576px) {
-    
-       
+@media screen and (max-width:425px) {
+    .nav-container {
+        flex-direction: column;
+        height: 200px;
+        width: auto;
+        margin-bottom: 150px;
 
+    }
 
-    
+    .nav-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-saction{
+        flex-direction: column;
+        margin-bottom: 120px;
+    }
+    .main-saction-img{
+        height: 50px;
+        width: 100%;
+    }
+    .game-list{
+        flex-direction: column ;
+        margin-top: 120px;
+       justify-content: left;
+    }
 }
-    
-
