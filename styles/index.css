@@ -174,15 +174,13 @@
     -webkit-text-fill-color: transparent;
     font-size: 48px;
     font-weight: 700;
-
-    .collection {
-        color: #534C64;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 30px;
-        margin-bottom: 48px;
-    }
-
+    
+}.collection {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
 }
 
 .game-list {

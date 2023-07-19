@@ -15,17 +15,50 @@
         align-items: center;
     }
 
-    .main-saction{
+    .main-saction {
         flex-direction: column;
-        margin-bottom: 120px;
+
     }
-    .main-saction-img{
-        height: 50px;
-        width: 100%;
+
+    .main-saction img {
+        width: 150px;
+        height: 150px;
+
+        margin-bottom: 200px;
+
     }
-    .game-list{
-        flex-direction: column ;
+
+    .online-section {
         margin-top: 120px;
-       justify-content: left;
+
     }
+
+    .game-list {
+        flex-direction: column;
+
+    }
+
+    .game-list img {
+        height: 150px;
+        width: 150px;
+
+    }
+
+    .play-game {
+        flex-direction: column-reverse;
+        display: block;
+    }
+
+    .play-game img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .play-game-img-2 {
+        position: relative;
+        bottom: 150px;
+
+    }
+
 }
+
