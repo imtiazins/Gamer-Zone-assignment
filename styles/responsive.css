@@ -7,58 +7,115 @@
         height: 200px;
         width: auto;
         margin-bottom: 150px;
+        align-items: center;
+        justify-content: center;
+        padding: 50px  0px;
 
     }
 
     .nav-info {
         flex-direction: column;
         align-items: center;
+        padding: 20px 0px;
     }
 
     .main-saction {
         flex-direction: column;
+        margin: 50px 0px 30px 0px ;
 
     }
 
     .main-saction img {
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
+        padding-right: 90px;
 
         margin-bottom: 200px;
 
     }
+    .online-game{
+        justify-content: center;
+    }
 
     .online-section {
-        margin-top: 120px;
+        margin-top: 300px;
 
+    }
+    .collection{
+        font-size:small;
     }
 
     .game-list {
         flex-direction: column;
+       margin: 0px;
+       text-align: center;
 
     }
 
     .game-list img {
         height: 150px;
         width: 150px;
+        
 
     }
+    .feature{
+        width: auto;
+        margin-bottom: 30px;
+        height: 100vh;
+        margin-top: 120px;
 
+    }
     .play-game {
         flex-direction: column-reverse;
         display: block;
+        margin: 0px 0px;
+        margin-top: 30px;
+    }
+    .play-games-online{
+        font-size: 40px ;
+    }
+    .anywhere{
+        font-size: 40px;
     }
 
     .play-game img {
         height: 150px;
         width: 150px;
+        display: flex;
+        align-items: start;
+        align-items: center;
+        justify-content: center;
+        
     }
 
     .play-game-img-2 {
         position: relative;
-        bottom: 150px;
-
+        bottom: 50px;
+        left: -400px;
     }
-
+    .play-game-info{
+        padding-left: 0px;
+        margin-bottom: 200px;
+        display: inline;
+        flex-direction: row;
+    }
+    .div-1 ,.div-2 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px 5px;
+    }
+        
+.footer{
+    padding: 120px 10px;
+    height: auto;
+}
+.footer-info{
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+}
+.privacy{
+    gap: 10px;
+}
 }
 
